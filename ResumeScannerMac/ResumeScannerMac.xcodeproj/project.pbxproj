@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028A58982879C3DB00B7750F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A58972879C3DB00B7750F /* AppDelegate.swift */; };
+		028A589A2879C3DB00B7750F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A58992879C3DB00B7750F /* ViewController.swift */; };
+		028A589D2879C3DB00B7750F /* ResumeScannerMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 028A589B2879C3DB00B7750F /* ResumeScannerMac.xcdatamodeld */; };
+		028A589F2879C3DD00B7750F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028A589E2879C3DD00B7750F /* Assets.xcassets */; };
+		028A58A22879C3DD00B7750F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028A58A02879C3DD00B7750F /* Main.storyboard */; };
+		028A58AD2879C3DE00B7750F /* ResumeScannerMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A58AC2879C3DE00B7750F /* ResumeScannerMacTests.swift */; };
+		028A58B72879C3DE00B7750F /* ResumeScannerMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A58B62879C3DE00B7750F /* ResumeScannerMacUITests.swift */; };
+		028A58B92879C3DE00B7750F /* ResumeScannerMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A58B82879C3DE00B7750F /* ResumeScannerMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028A58A92879C3DE00B7750F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028A588C2879C3DB00B7750F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028A58932879C3DB00B7750F;
+			remoteInfo = ResumeScannerMac;
+		};
+		028A58B32879C3DE00B7750F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028A588C2879C3DB00B7750F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028A58932879C3DB00B7750F;
+			remoteInfo = ResumeScannerMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028A58942879C3DB00B7750F /* ResumeScannerMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeScannerMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028A58972879C3DB00B7750F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028A58992879C3DB00B7750F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		028A589C2879C3DB00B7750F /* ResumeScannerMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResumeScannerMac.xcdatamodel; sourceTree = "<group>"; };
+		028A589E2879C3DD00B7750F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028A58A12879C3DD00B7750F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028A58A32879C3DD00B7750F /* ResumeScannerMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResumeScannerMac.entitlements; sourceTree = "<group>"; };
+		028A58A82879C3DE00B7750F /* ResumeScannerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeScannerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028A58AC2879C3DE00B7750F /* ResumeScannerMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeScannerMacTests.swift; sourceTree = "<group>"; };
+		028A58B22879C3DE00B7750F /* ResumeScannerMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeScannerMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028A58B62879C3DE00B7750F /* ResumeScannerMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeScannerMacUITests.swift; sourceTree = "<group>"; };
+		028A58B82879C3DE00B7750F /* ResumeScannerMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeScannerMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028A58912879C3DB00B7750F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58A52879C3DE00B7750F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58AF2879C3DE00B7750F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028A588B2879C3DB00B7750F = {
+			isa = PBXGroup;
+			children = (
+				028A58962879C3DB00B7750F /* ResumeScannerMac */,
+				028A58AB2879C3DE00B7750F /* ResumeScannerMacTests */,
+				028A58B52879C3DE00B7750F /* ResumeScannerMacUITests */,
+				028A58952879C3DB00B7750F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028A58952879C3DB00B7750F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028A58942879C3DB00B7750F /* ResumeScannerMac.app */,
+				028A58A82879C3DE00B7750F /* ResumeScannerMacTests.xctest */,
+				028A58B22879C3DE00B7750F /* ResumeScannerMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028A58962879C3DB00B7750F /* ResumeScannerMac */ = {
+			isa = PBXGroup;
+			children = (
+				028A58972879C3DB00B7750F /* AppDelegate.swift */,
+				028A58992879C3DB00B7750F /* ViewController.swift */,
+				028A589E2879C3DD00B7750F /* Assets.xcassets */,
+				028A58A02879C3DD00B7750F /* Main.storyboard */,
+				028A58A32879C3DD00B7750F /* ResumeScannerMac.entitlements */,
+				028A589B2879C3DB00B7750F /* ResumeScannerMac.xcdatamodeld */,
+			);
+			path = ResumeScannerMac;
+			sourceTree = "<group>";
+		};
+		028A58AB2879C3DE00B7750F /* ResumeScannerMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				028A58AC2879C3DE00B7750F /* ResumeScannerMacTests.swift */,
+			);
+			path = ResumeScannerMacTests;
+			sourceTree = "<group>";
+		};
+		028A58B52879C3DE00B7750F /* ResumeScannerMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				028A58B62879C3DE00B7750F /* ResumeScannerMacUITests.swift */,
+				028A58B82879C3DE00B7750F /* ResumeScannerMacUITestsLaunchTests.swift */,
+			);
+			path = ResumeScannerMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028A58932879C3DB00B7750F /* ResumeScannerMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028A58BC2879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMac" */;
+			buildPhases = (
+				028A58902879C3DB00B7750F /* Sources */,
+				028A58912879C3DB00B7750F /* Frameworks */,
+				028A58922879C3DB00B7750F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResumeScannerMac;
+			productName = ResumeScannerMac;
+			productReference = 028A58942879C3DB00B7750F /* ResumeScannerMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028A58A72879C3DE00B7750F /* ResumeScannerMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028A58BF2879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMacTests" */;
+			buildPhases = (
+				028A58A42879C3DE00B7750F /* Sources */,
+				028A58A52879C3DE00B7750F /* Frameworks */,
+				028A58A62879C3DE00B7750F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028A58AA2879C3DE00B7750F /* PBXTargetDependency */,
+			);
+			name = ResumeScannerMacTests;
+			productName = ResumeScannerMacTests;
+			productReference = 028A58A82879C3DE00B7750F /* ResumeScannerMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		028A58B12879C3DE00B7750F /* ResumeScannerMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028A58C22879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMacUITests" */;
+			buildPhases = (
+				028A58AE2879C3DE00B7750F /* Sources */,
+				028A58AF2879C3DE00B7750F /* Frameworks */,
+				028A58B02879C3DE00B7750F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028A58B42879C3DE00B7750F /* PBXTargetDependency */,
+			);
+			name = ResumeScannerMacUITests;
+			productName = ResumeScannerMacUITests;
+			productReference = 028A58B22879C3DE00B7750F /* ResumeScannerMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028A588C2879C3DB00B7750F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					028A58932879C3DB00B7750F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					028A58A72879C3DE00B7750F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 028A58932879C3DB00B7750F;
+					};
+					028A58B12879C3DE00B7750F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 028A58932879C3DB00B7750F;
+					};
+				};
+			};
+			buildConfigurationList = 028A588F2879C3DB00B7750F /* Build configuration list for PBXProject "ResumeScannerMac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028A588B2879C3DB00B7750F;
+			productRefGroup = 028A58952879C3DB00B7750F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028A58932879C3DB00B7750F /* ResumeScannerMac */,
+				028A58A72879C3DE00B7750F /* ResumeScannerMacTests */,
+				028A58B12879C3DE00B7750F /* ResumeScannerMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028A58922879C3DB00B7750F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A589F2879C3DD00B7750F /* Assets.xcassets in Resources */,
+				028A58A22879C3DD00B7750F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58A62879C3DE00B7750F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58B02879C3DE00B7750F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028A58902879C3DB00B7750F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A589D2879C3DB00B7750F /* ResumeScannerMac.xcdatamodeld in Sources */,
+				028A589A2879C3DB00B7750F /* ViewController.swift in Sources */,
+				028A58982879C3DB00B7750F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58A42879C3DE00B7750F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A58AD2879C3DE00B7750F /* ResumeScannerMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028A58AE2879C3DE00B7750F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A58B92879C3DE00B7750F /* ResumeScannerMacUITestsLaunchTests.swift in Sources */,
+				028A58B72879C3DE00B7750F /* ResumeScannerMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028A58AA2879C3DE00B7750F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028A58932879C3DB00B7750F /* ResumeScannerMac */;
+			targetProxy = 028A58A92879C3DE00B7750F /* PBXContainerItemProxy */;
+		};
+		028A58B42879C3DE00B7750F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028A58932879C3DB00B7750F /* ResumeScannerMac */;
+			targetProxy = 028A58B32879C3DE00B7750F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		028A58A02879C3DD00B7750F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028A58A12879C3DD00B7750F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028A58BA2879C3DE00B7750F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		028A58BB2879C3DE00B7750F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		028A58BD2879C3DE00B7750F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResumeScannerMac/ResumeScannerMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		028A58BE2879C3DE00B7750F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResumeScannerMac/ResumeScannerMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		028A58C02879C3DE00B7750F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeScannerMac.app/Contents/MacOS/ResumeScannerMac";
+			};
+			name = Debug;
+		};
+		028A58C12879C3DE00B7750F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeScannerMac.app/Contents/MacOS/ResumeScannerMac";
+			};
+			name = Release;
+		};
+		028A58C32879C3DE00B7750F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ResumeScannerMac;
+			};
+			name = Debug;
+		};
+		028A58C42879C3DE00B7750F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DZ8PTV4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ResumeScannerMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ResumeScannerMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028A588F2879C3DB00B7750F /* Build configuration list for PBXProject "ResumeScannerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A58BA2879C3DE00B7750F /* Debug */,
+				028A58BB2879C3DE00B7750F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028A58BC2879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A58BD2879C3DE00B7750F /* Debug */,
+				028A58BE2879C3DE00B7750F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028A58BF2879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A58C02879C3DE00B7750F /* Debug */,
+				028A58C12879C3DE00B7750F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028A58C22879C3DE00B7750F /* Build configuration list for PBXNativeTarget "ResumeScannerMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A58C32879C3DE00B7750F /* Debug */,
+				028A58C42879C3DE00B7750F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		028A589B2879C3DB00B7750F /* ResumeScannerMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				028A589C2879C3DB00B7750F /* ResumeScannerMac.xcdatamodel */,
+			);
+			currentVersion = 028A589C2879C3DB00B7750F /* ResumeScannerMac.xcdatamodel */;
+			path = ResumeScannerMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 028A588C2879C3DB00B7750F /* Project object */;
+}
